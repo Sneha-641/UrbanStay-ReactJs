@@ -1,9 +1,11 @@
 UrbanStay --- ReactJs-Project using Tailwind CSS
 
-**Overview**
+
+## Overview:
 The UrbanStay React project is a web application designed to showcase luxury hotel accommodations. This project demonstrates various React concepts including components, state management, and responsive design. It features a modern and visually appealing interface with sections for navigation, home banner, about us, rooms, services, testimonials, team, newsletter, and footer.
 
-**Components Overview**
+
+## Components Overview
 1. Navbar
 The Navbar component renders a navigation bar at the top of the page with links to different sections and social media icons.
 
@@ -34,7 +36,9 @@ The Newsletter component allows users to subscribe to the hotel's newsletter wit
 10. Footer
 The Footer component provides contact information, company details, services, and social media links at the bottom of the page.
 
-**Website Look:**
+
+## Website Look:
+
 ![image](https://github.com/user-attachments/assets/19ff9c39-47dc-47e6-8557-99aa1eb96772)
 ![image](https://github.com/user-attachments/assets/88bf2432-88fe-4aed-add0-cf57ff7a5b90)
 ![image](https://github.com/user-attachments/assets/a0aed0e0-fe1a-4086-aba7-90787d2eed0e)
