@@ -7,7 +7,7 @@ export const Footer = () => {
     return (
         <>
             <div className="flex space-x-24 bg-dark p-16 pt-24 text-white">
-                <div className="bg-prim w-1/4 p-12 py-4 text-white">
+                <div className="bg-prim w-1/4 px-12 py-8 text-white">
                     <h1 className="font-bold text-4xl mb-4">UrbanStay</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatibus quo quidem soluta omnis</p>
                 </div>
@@ -25,7 +25,7 @@ export const Footer = () => {
                     </div>
                 </div>
                 <div className="flex flex-col space-y-2">
-                    <p className="font-bold text-xl text-prim underline underline-offset-4">Company</p>
+                    <p className="font-bold text-xl text-prim underline underline-offset-4 mb-2">Company</p>
                     <p>About Us</p>
                     <p>Contact Us</p>
                     <p>Privacy Policy</p>
@@ -33,7 +33,7 @@ export const Footer = () => {
                     <p>Support</p>
                 </div>
                 <div className="flex flex-col space-y-2">
-                    <p className="font-bold text-xl text-prim underline underline-offset-4">Services</p>
+                    <p className="font-bold text-xl text-prim underline underline-offset-4 mb-2">Services</p>
                     <p>Food and Restaurant</p>
                     <p>Spa & Fitness</p>
                     <p>Sports & Gaming</p>

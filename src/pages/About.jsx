@@ -8,6 +8,7 @@ import A4 from '../assets/about-4.jpg';
 
 const About = () => {
   return (
+    <>
     <div className="container mx-auto px-32 bg-light flex space-x-16 items-center">
       <div className=" text-left w-1/2">
               <p className="uppercase font-bold text-prim text-md mb-4 underline underline-offset-4">About us</p>
@@ -45,6 +46,7 @@ const About = () => {
             </div>
           </div>
        </div>
+    </>  
   )
 }
 
