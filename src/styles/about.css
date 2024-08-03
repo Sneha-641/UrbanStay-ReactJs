@@ -1,0 +1,39 @@
+.card-1 {
+    position: relative;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+  }
+  
+  .card-1 img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+  }
+  
+  .front-card {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+  }
+  
+  .back-card {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg); 
+  }
+  
+  .back-card img{
+    border-radius: 10%;
+  }
+  
+  .card-1:hover {
+    transform: rotateY(180deg);
+  }
+  

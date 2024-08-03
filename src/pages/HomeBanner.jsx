@@ -48,19 +48,19 @@ const HomeBanner = () => {
           <div className="flex flex-wrap items-center justify-between space-x-4">
             <input type="text" placeholder="Check in" className="p-2 border border-gray-400 rounded w-64"/>
             <input type="text" placeholder="Check out" className="p-2 border border-gray-400 rounded w-64"/>
-            <select className="p-2 border rounded w-64 border-gray-400 text-gray-400">
-              <option>Adult</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
+            <select class="p-2 border rounded w-64 border-gray-400 text-gray-400">
+                <option value="" disabled selected>Adult</option>
+                <option className="text-black">1</option>
+                <option className="text-black">2</option>
+                <option className="text-black">3</option>
             </select>
-            <select className="p-2 border rounded w-64 border-gray-400 text-gray-400">
-              <option>Child</option>
-              <option>0</option>
-              <option>1</option>
-              <option>2</option>
+            <select class="p-2 border rounded w-64 border-gray-400 text-gray-400">
+                <option value="" disabled selected>Child</option>
+                <option className="text-black">0</option>
+                <option className="text-black">1</option>
+                <option className="text-black">2</option>
             </select>
-            <button className="bg-prim text-white px-4 py-2 rounded w-48 hover:bg-green-600 hover:shadow-xl">Submit</button>
+            <button className="bg-prim text-white px-4 py-2 rounded w-48">Submit</button>
           </div>
         </div>
       </div>
@@ -69,4 +69,6 @@ const HomeBanner = () => {
 };
 
 export default HomeBanner;
+
+
 

@@ -64,6 +64,7 @@ const TestimonialCarousel = () => {
   };
 
   return (
+    <div className="bg-dark p-2">
     <div className="p-16 mx-32 my-16" style={{ backgroundImage: `url(${Img})` }}>
       <div className="container space-x-4">
         <Slider {...settings}>
@@ -85,6 +86,7 @@ const TestimonialCarousel = () => {
           ))}
         </Slider>
       </div>
+    </div>
     </div>
   );
 };

@@ -5,6 +5,7 @@ import A1 from '../assets/about-1.jpg';
 import A2 from '../assets/about-2.jpg';
 import A3 from '../assets/about-3.jpg';
 import A4 from '../assets/about-4.jpg';
+import '../styles/about.css';
 
 const About = () => {
   return (
@@ -35,7 +36,7 @@ const About = () => {
               </div>
               <button className="bg-prim text-white px-8 py-4 rounded uppercase text-">Explore More</button>
             </div>
-      <div className="flex space-x-4">
+      {/* <div className="flex space-x-4">
             <div className="flex flex-col items-end space-y-4 my-8 pt-16">
               <img src={A1} alt="Resort" className="w-[240px] h-[220px] shadow-lg"/>
               <img src={A3} alt="Pool" className="w-[150px] shadow-lg"/>
@@ -43,6 +44,31 @@ const About = () => {
             <div className="flex flex-col my-8 space-y-4 items-left">
               <img src={A2} alt="Resort" className="w-[280px] shadow-lg"/>
               <img src={A4} alt="Pool" className="w-[220px]  shadow-lg"/>
+            </div>
+          </div> */}
+          <div className="flex space-x-2">
+            <div className="flex flex-col items-end space-y-2 my-8 pt-16">
+              <div className="card-1 w-[240px] h-[220px] shadow-lg">
+                <div className="front-card">
+                  <img src={A1} alt="Resort" />
+                </div>
+                <div className="back-card">
+                  <img src={A4} alt="Resort"/>
+                </div>
+              </div>
+              <img src={A3} alt="Pool" className="w-[150px] shadow-lg"/>
+            </div>
+            <div className="flex flex-col my-8 space-y-2 items-left">
+              <img src={A2} alt="Resort" className="w-[280px] shadow-lg"/>
+              <div className="card-1 w-[220px] h-[200px] shadow-lg">
+                <div className="front-card">
+                  <img src={A4} alt="Resort" />
+                </div>
+                <div className="back-card">
+                  <img src={A1} alt="Resort"/>
+                </div>
+              </div>
+              {/* <img src={A4} alt="Pool" className="w-[220px]  shadow-lg"/> */}
             </div>
           </div>
        </div>
