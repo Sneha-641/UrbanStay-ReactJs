@@ -14,8 +14,8 @@ export const Footer = () => {
                 <div className="flex space-x-48">
                 <div className="flex flex-col space-y-4">
                     <p className="font-bold text-xl text-prim underline underline-offset-4">Contact</p>
-                    <p>123 Street, New York, USA</p>
-                    <p>+012 34567890</p>
+                    <p>CyberCity, Gurugram, India</p>
+                    <p>+91-7345678980</p>
                     <p>info@example.com</p>
                     <div className="flex text-prim space-x-1">
                        <a href="#" className="border p-2 px-4 custom"><FontAwesomeIcon icon={faFacebookF} /></a>
